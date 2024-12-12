@@ -1,0 +1,482 @@
+[
+    {
+        "query": "What are the primary NLP tasks where BERTweet outperforms RoBERTa and XLM-R?",
+        "top_k_rank": 1,
+        "context_without_reranker": [
+            "BERTweet outperforms strong baselines like RoBERTa-base and XLM-R-base on three key Tweet NLP tasks: part-of-speech tagging, named-entity recognition, and text classification."
+        ],
+        "context_with_reranker": [
+            "BERTweet outperforms strong baselines like RoBERTa-base and XLM-R-base on three key Tweet NLP tasks: part-of-speech tagging, named-entity recognition, and text classification."
+        ],
+        "time_without_reranker": 2.0363759994506836,
+        "time_with_reranker": 125.89577102661133
+    },
+    {
+        "query": "What are the primary NLP tasks where BERTweet outperforms RoBERTa and XLM-R?",
+        "top_k_rank": 3,
+        "context_without_reranker": [
+            "BERTweet outperforms strong baselines like RoBERTa-base and XLM-R-base on three key Tweet NLP tasks: part-of-speech tagging, named-entity recognition, and text classification.",
+            "BERTweet is a pre-trained language model for English Tweets, as introduced in a paper by Nguyen et al. It mirrors the architecture of BERT-base and employs the RoBERTa training procedure.",
+            "DeBERTa outperforms RoBERTa-Large on various NLP tasks, demonstrating superior accuracy with significantly less training data. Performance improvements include +0.9% on MNLI and +2.3% on SQuAD v2.0."
+        ],
+        "context_with_reranker": [
+            "DeBERTa outperforms RoBERTa-Large on various NLP tasks, demonstrating superior accuracy with significantly less training data. Performance improvements include +0.9% on MNLI and +2.3% on SQuAD v2.0.",
+            "BERTweet is a pre-trained language model for English Tweets, as introduced in a paper by Nguyen et al. It mirrors the architecture of BERT-base and employs the RoBERTa training procedure.",
+            "BERTweet outperforms strong baselines like RoBERTa-base and XLM-R-base on three key Tweet NLP tasks: part-of-speech tagging, named-entity recognition, and text classification."
+        ],
+        "time_without_reranker": 1.9656929969787598,
+        "time_with_reranker": 126.83033394813538
+    },
+    {
+        "query": "What are the primary NLP tasks where BERTweet outperforms RoBERTa and XLM-R?",
+        "top_k_rank": 5,
+        "context_without_reranker": [
+            "BERTweet outperforms strong baselines like RoBERTa-base and XLM-R-base on three key Tweet NLP tasks: part-of-speech tagging, named-entity recognition, and text classification.",
+            "BERTweet is a pre-trained language model for English Tweets, as introduced in a paper by Nguyen et al. It mirrors the architecture of BERT-base and employs the RoBERTa training procedure.",
+            "DeBERTa outperforms RoBERTa-Large on various NLP tasks, demonstrating superior accuracy with significantly less training data. Performance improvements include +0.9% on MNLI and +2.3% on SQuAD v2.0.",
+            "XLM-RoBERTa-XL surpasses XLM-R by 1.8% and 2.4% in average accuracy on the XNLI benchmark and outperforms RoBERTa-Large on several GLUE tasks. It supports 99 more languages, benefiting both high- and low-resource language performance. ",
+            "The DeBERTa-v2 model enhances Google's BERT and Facebook's RoBERTa by employing disentangled attention and advanced mask decoder techniques. It utilizes half the training data compared to RoBERTa but improves performance on various NLP tasks."
+        ],
+        "context_with_reranker": [
+            "XLM-RoBERTa-XL surpasses XLM-R by 1.8% and 2.4% in average accuracy on the XNLI benchmark and outperforms RoBERTa-Large on several GLUE tasks. It supports 99 more languages, benefiting both high- and low-resource language performance. ",
+            "The DeBERTa-v2 model enhances Google's BERT and Facebook's RoBERTa by employing disentangled attention and advanced mask decoder techniques. It utilizes half the training data compared to RoBERTa but improves performance on various NLP tasks.",
+            "DeBERTa outperforms RoBERTa-Large on various NLP tasks, demonstrating superior accuracy with significantly less training data. Performance improvements include +0.9% on MNLI and +2.3% on SQuAD v2.0.",
+            "BERTweet is a pre-trained language model for English Tweets, as introduced in a paper by Nguyen et al. It mirrors the architecture of BERT-base and employs the RoBERTa training procedure.",
+            "BERTweet outperforms strong baselines like RoBERTa-base and XLM-R-base on three key Tweet NLP tasks: part-of-speech tagging, named-entity recognition, and text classification."
+        ],
+        "time_without_reranker": 1.9715359210968018,
+        "time_with_reranker": 129.25466990470886
+    },
+    {
+        "query": "How does BERTweet differ from standard BERT in its implementation and tokenization methods?",
+        "top_k_rank": 1,
+        "context_without_reranker": [
+            "This implementation shares similarities with BERT but differs in its tokenization method. Users should consult the BERT documentation for API details."
+        ],
+        "context_with_reranker": [
+            "This implementation shares similarities with BERT but differs in its tokenization method. Users should consult the BERT documentation for API details."
+        ],
+        "time_without_reranker": 1.742771863937378,
+        "time_with_reranker": 110.9837338924408
+    },
+    {
+        "query": "How does BERTweet differ from standard BERT in its implementation and tokenization methods?",
+        "top_k_rank": 3,
+        "context_without_reranker": [
+            "This implementation shares similarities with BERT but differs in its tokenization method. Users should consult the BERT documentation for API details.",
+            "This implementation mirrors BERT's architecture but differs in the tokenization method. For API reference, consult the BERT documentation.",
+            "BERTweet is a pre-trained language model for English Tweets, as introduced in a paper by Nguyen et al. It mirrors the architecture of BERT-base and employs the RoBERTa training procedure."
+        ],
+        "context_with_reranker": [
+            "BERT uses masked language modeling (MLM), while XLNet employs permuted language modeling (PLM) but ignores full sentence position information. MPNet addresses these issues by integrating dependency among tokens and using auxiliary position data.",
+            "This implementation mirrors BERT's architecture but differs in the tokenization method. For API reference, consult the BERT documentation.",
+            "This implementation shares similarities with BERT but differs in its tokenization method. Users should consult the BERT documentation for API details."
+        ],
+        "time_without_reranker": 1.6742331981658936,
+        "time_with_reranker": 114.51888585090637
+    },
+    {
+        "query": "How does BERTweet differ from standard BERT in its implementation and tokenization methods?",
+        "top_k_rank": 5,
+        "context_without_reranker": [
+            "This implementation shares similarities with BERT but differs in its tokenization method. Users should consult the BERT documentation for API details.",
+            "This implementation mirrors BERT's architecture but differs in the tokenization method. For API reference, consult the BERT documentation.",
+            "BERTweet is a pre-trained language model for English Tweets, as introduced in a paper by Nguyen et al. It mirrors the architecture of BERT-base and employs the RoBERTa training procedure.",
+            "PhoBERT's implementation is similar to BERT, with differences in tokenization. Users can refer to BERT's documentation for configuration details, while PhoBERT-specific tokenizer information is provided separately.",
+            "HerbertTokenizer and HerbertTokenizerFast are available for efficient tokenization, facilitating seamless integration into various natural language processing applications. Refer to the BERT documentation for further details."
+        ],
+        "context_with_reranker": [
+            "PhoBERT's implementation is similar to BERT, with differences in tokenization. Users can refer to BERT's documentation for configuration details, while PhoBERT-specific tokenizer information is provided separately.",
+            "BERTweet is a pre-trained language model for English Tweets, as introduced in a paper by Nguyen et al. It mirrors the architecture of BERT-base and employs the RoBERTa training procedure.",
+            "BERT uses masked language modeling (MLM), while XLNet employs permuted language modeling (PLM) but ignores full sentence position information. MPNet addresses these issues by integrating dependency among tokens and using auxiliary position data.",
+            "This implementation mirrors BERT's architecture but differs in the tokenization method. For API reference, consult the BERT documentation.",
+            "This implementation shares similarities with BERT but differs in its tokenization method. Users should consult the BERT documentation for API details."
+        ],
+        "time_without_reranker": 1.6837680339813232,
+        "time_with_reranker": 118.05444931983948
+    },
+    {
+        "query": "How does BigBird's sparse attention mechanism achieve linear complexity for processing long sequences?",
+        "top_k_rank": 1,
+        "context_without_reranker": [
+            "The model addresses the limitation of full attention in transformers, which has a quadratic memory dependency on sequence length. By implementing a sparse attention mechanism, BigBird achieves linear complexity, making it a universal approximator and allowing it to handle sequences much longer than before."
+        ],
+        "context_with_reranker": [
+            "The model addresses the limitation of full attention in transformers, which has a quadratic memory dependency on sequence length. By implementing a sparse attention mechanism, BigBird achieves linear complexity, making it a universal approximator and allowing it to handle sequences much longer than before."
+        ],
+        "time_without_reranker": 1.6734850406646729,
+        "time_with_reranker": 128.22434401512146
+    },
+    {
+        "query": "How does BigBird's sparse attention mechanism achieve linear complexity for processing long sequences?",
+        "top_k_rank": 3,
+        "context_without_reranker": [
+            "The model addresses the limitation of full attention in transformers, which has a quadratic memory dependency on sequence length. By implementing a sparse attention mechanism, BigBird achieves linear complexity, making it a universal approximator and allowing it to handle sequences much longer than before.",
+            "BigBird is a sparse-attention transformer model designed for NLP that supports longer sequences than traditional models like BERT. It utilizes sparse, global, and random attention to enhance computational efficiency and improve performance in tasks such as question answering and summarization.",
+            "The paper's abstract describes BigBird as addressing BERT's quadratic memory dependency with a sparse attention mechanism, transforming it to linear. BigBird maintains the properties of full attention and can manage sequences up to eight times longer, significantly boosting performance in NLP tasks and genomics applications."
+        ],
+        "context_with_reranker": [
+            "The paper's abstract describes BigBird as addressing BERT's quadratic memory dependency with a sparse attention mechanism, transforming it to linear. BigBird maintains the properties of full attention and can manage sequences up to eight times longer, significantly boosting performance in NLP tasks and genomics applications.",
+            "BigBird is a sparse-attention transformer model designed for NLP that supports longer sequences than traditional models like BERT. It utilizes sparse, global, and random attention to enhance computational efficiency and improve performance in tasks such as question answering and summarization.",
+            "The model addresses the limitation of full attention in transformers, which has a quadratic memory dependency on sequence length. By implementing a sparse attention mechanism, BigBird achieves linear complexity, making it a universal approximator and allowing it to handle sequences much longer than before."
+        ],
+        "time_without_reranker": 1.6977829933166504,
+        "time_with_reranker": 130.8309462070465
+    },
+    {
+        "query": "How does BigBird's sparse attention mechanism achieve linear complexity for processing long sequences?",
+        "top_k_rank": 5,
+        "context_without_reranker": [
+            "The model addresses the limitation of full attention in transformers, which has a quadratic memory dependency on sequence length. By implementing a sparse attention mechanism, BigBird achieves linear complexity, making it a universal approximator and allowing it to handle sequences much longer than before.",
+            "BigBird is a sparse-attention transformer model designed for NLP that supports longer sequences than traditional models like BERT. It utilizes sparse, global, and random attention to enhance computational efficiency and improve performance in tasks such as question answering and summarization.",
+            "The paper's abstract describes BigBird as addressing BERT's quadratic memory dependency with a sparse attention mechanism, transforming it to linear. BigBird maintains the properties of full attention and can manage sequences up to eight times longer, significantly boosting performance in NLP tasks and genomics applications.",
+            "BigBird is a sparse-attention-based transformer model extending BERT to handle longer sequences. It incorporates global and random attention, making it computationally efficient while approximating full attention. As a result, BigBird excels in long NLP tasks like question answering and summarization.",
+            "For detailed explanations of BigBird's attention, a dedicated blog post is available. It offers two implementations: original_full for sequences under 1024 and block_sparse for longer sequences. Sequence length must fit the block size, with current support restricted to specific configurations."
+        ],
+        "context_with_reranker": [
+            "For detailed explanations of BigBird's attention, a dedicated blog post is available. It offers two implementations: original_full for sequences under 1024 and block_sparse for longer sequences. Sequence length must fit the block size, with current support restricted to specific configurations.",
+            "BigBird is a sparse-attention-based transformer model extending BERT to handle longer sequences. It incorporates global and random attention, making it computationally efficient while approximating full attention. As a result, BigBird excels in long NLP tasks like question answering and summarization.",
+            "The paper's abstract describes BigBird as addressing BERT's quadratic memory dependency with a sparse attention mechanism, transforming it to linear. BigBird maintains the properties of full attention and can manage sequences up to eight times longer, significantly boosting performance in NLP tasks and genomics applications.",
+            "BigBird is a sparse-attention transformer model designed for NLP that supports longer sequences than traditional models like BERT. It utilizes sparse, global, and random attention to enhance computational efficiency and improve performance in tasks such as question answering and summarization.",
+            "The model addresses the limitation of full attention in transformers, which has a quadratic memory dependency on sequence length. By implementing a sparse attention mechanism, BigBird achieves linear complexity, making it a universal approximator and allowing it to handle sequences much longer than before."
+        ],
+        "time_without_reranker": 1.687263011932373,
+        "time_with_reranker": 129.1401710510254
+    },
+    {
+        "query": "What potential applications does BigBird have in genomics data analysis?",
+        "top_k_rank": 1,
+        "context_without_reranker": [
+            "BigBird shows significant performance improvements in various NLP tasks due to its ability to process longer contexts. It also has potential applications in genomics data, expanding its usefulness beyond traditional NLP tasks."
+        ],
+        "context_with_reranker": [
+            "BigBird shows significant performance improvements in various NLP tasks due to its ability to process longer contexts. It also has potential applications in genomics data, expanding its usefulness beyond traditional NLP tasks."
+        ],
+        "time_without_reranker": 1.3708877563476562,
+        "time_with_reranker": 120.32213616371155
+    },
+    {
+        "query": "What potential applications does BigBird have in genomics data analysis?",
+        "top_k_rank": 3,
+        "context_without_reranker": [
+            "BigBird shows significant performance improvements in various NLP tasks due to its ability to process longer contexts. It also has potential applications in genomics data, expanding its usefulness beyond traditional NLP tasks.",
+            "Two implementations of BigBird are available: original_full and block_sparse. For sequences shorter than 1024, original_full is recommended. The model requires specific padding and input configurations, and only supports certain block sizes.",
+            "Resources are provided for various NLP tasks, including text classification and question answering, to assist users in utilizing BigBird effectively. The model's different classes cater to multiple functionalities, ensuring versatility in applications."
+        ],
+        "context_with_reranker": [
+            "Two implementations of BigBird are available: original_full and block_sparse. For sequences shorter than 1024, original_full is recommended. The model requires specific padding and input configurations, and only supports certain block sizes.",
+            "BigBirdPegasus utilizes the PegasusTokenizer and employs absolute position embeddings, recommending right padding for inputs. Various resources are provided, including guides for text classification, question answering, causal language modeling, translation, and summarization.",
+            "BigBird shows significant performance improvements in various NLP tasks due to its ability to process longer contexts. It also has potential applications in genomics data, expanding its usefulness beyond traditional NLP tasks."
+        ],
+        "time_without_reranker": 1.3820888996124268,
+        "time_with_reranker": 120.93623208999634
+    },
+    {
+        "query": "What potential applications does BigBird have in genomics data analysis?",
+        "top_k_rank": 5,
+        "context_without_reranker": [
+            "BigBird shows significant performance improvements in various NLP tasks due to its ability to process longer contexts. It also has potential applications in genomics data, expanding its usefulness beyond traditional NLP tasks.",
+            "Two implementations of BigBird are available: original_full and block_sparse. For sequences shorter than 1024, original_full is recommended. The model requires specific padding and input configurations, and only supports certain block sizes.",
+            "Resources are provided for various NLP tasks, including text classification and question answering, to assist users in utilizing BigBird effectively. The model's different classes cater to multiple functionalities, ensuring versatility in applications.",
+            "The model addresses the limitation of full attention in transformers, which has a quadratic memory dependency on sequence length. By implementing a sparse attention mechanism, BigBird achieves linear complexity, making it a universal approximator and allowing it to handle sequences much longer than before.",
+            "For detailed explanations of BigBird's attention, a dedicated blog post is available. It offers two implementations: original_full for sequences under 1024 and block_sparse for longer sequences. Sequence length must fit the block size, with current support restricted to specific configurations."
+        ],
+        "context_with_reranker": [
+            "For detailed explanations of BigBird's attention, a dedicated blog post is available. It offers two implementations: original_full for sequences under 1024 and block_sparse for longer sequences. Sequence length must fit the block size, with current support restricted to specific configurations.",
+            "Resources are provided for various NLP tasks, including text classification and question answering, to assist users in utilizing BigBird effectively. The model's different classes cater to multiple functionalities, ensuring versatility in applications.",
+            "Two implementations of BigBird are available: original_full and block_sparse. For sequences shorter than 1024, original_full is recommended. The model requires specific padding and input configurations, and only supports certain block sizes.",
+            "BigBirdPegasus utilizes the PegasusTokenizer and employs absolute position embeddings, recommending right padding for inputs. Various resources are provided, including guides for text classification, question answering, causal language modeling, translation, and summarization.",
+            "BigBird shows significant performance improvements in various NLP tasks due to its ability to process longer contexts. It also has potential applications in genomics data, expanding its usefulness beyond traditional NLP tasks."
+        ],
+        "time_without_reranker": 1.365112066268921,
+        "time_with_reranker": 120.10058093070984
+    },
+    {
+        "query": "Explain how CANINE processes text directly at the Unicode character level without tokenization.",
+        "top_k_rank": 1,
+        "context_without_reranker": [
+            "Users can utilize CANINE directly with raw characters or through a tokenizer for batching. The example provided demonstrates encoding input text and performing a forward pass for various NLP tasks."
+        ],
+        "context_with_reranker": [
+            "Users can utilize CANINE directly with raw characters or through a tokenizer for batching. The example provided demonstrates encoding input text and performing a forward pass for various NLP tasks."
+        ],
+        "time_without_reranker": 1.5303821563720703,
+        "time_with_reranker": 112.40851783752441
+    },
+    {
+        "query": "Explain how CANINE processes text directly at the Unicode character level without tokenization.",
+        "top_k_rank": 3,
+        "context_without_reranker": [
+            "Users can utilize CANINE directly with raw characters or through a tokenizer for batching. The example provided demonstrates encoding input text and performing a forward pass for various NLP tasks.",
+            "The CANINE model is a novel approach to language representation that functions without explicit tokenization, training directly at the Unicode character level. It uses an efficient downsampling method to manage the longer sequences generated by this character-level training.",
+            "For character-based tokenization, a similar process is followed, producing a different tokenization output. The same input text illustrates this approach."
+        ],
+        "context_with_reranker": [
+            "For character-based tokenization, a similar process is followed, producing a different tokenization output. The same input text illustrates this approach.",
+            "The CANINE model is a novel approach to language representation that functions without explicit tokenization, training directly at the Unicode character level. It uses an efficient downsampling method to manage the longer sequences generated by this character-level training.",
+            "Users can utilize CANINE directly with raw characters or through a tokenizer for batching. The example provided demonstrates encoding input text and performing a forward pass for various NLP tasks."
+        ],
+        "time_without_reranker": 1.6210110187530518,
+        "time_with_reranker": 113.27469110488892
+    },
+    {
+        "query": "Explain how CANINE processes text directly at the Unicode character level without tokenization.",
+        "top_k_rank": 5,
+        "context_without_reranker": [
+            "Users can utilize CANINE directly with raw characters or through a tokenizer for batching. The example provided demonstrates encoding input text and performing a forward pass for various NLP tasks.",
+            "The CANINE model is a novel approach to language representation that functions without explicit tokenization, training directly at the Unicode character level. It uses an efficient downsampling method to manage the longer sequences generated by this character-level training.",
+            "For character-based tokenization, a similar process is followed, producing a different tokenization output. The same input text illustrates this approach.",
+            "The abstract highlights that while many models require tokenization, CANINE operates directly on character inputs, achieving better language adaptation without a fixed vocabulary. It outperforms comparable models like mBERT despite having fewer parameters.",
+            "Internally, CANINE incorporates three Transformer encoders: two shallow encoders for local attention and one deep encoder for contextual encoding. It defaults to a max sequence length of 2048 characters and utilizes a special [CLS] token for classification tasks."
+        ],
+        "context_with_reranker": [
+            "BERT models trained on Japanese text use two tokenization methods: MeCab with WordPiece and character-based tokenization. The MeCab option requires additional dependencies, specifically fugashi.",
+            "Internally, CANINE incorporates three Transformer encoders: two shallow encoders for local attention and one deep encoder for contextual encoding. It defaults to a max sequence length of 2048 characters and utilizes a special [CLS] token for classification tasks.",
+            "For character-based tokenization, a similar process is followed, producing a different tokenization output. The same input text illustrates this approach.",
+            "The CANINE model is a novel approach to language representation that functions without explicit tokenization, training directly at the Unicode character level. It uses an efficient downsampling method to manage the longer sequences generated by this character-level training.",
+            "Users can utilize CANINE directly with raw characters or through a tokenizer for batching. The example provided demonstrates encoding input text and performing a forward pass for various NLP tasks."
+        ],
+        "time_without_reranker": 1.72701096534729,
+        "time_with_reranker": 115.18072295188904
+    },
+    {
+        "query": "How does CANINE compare to mBERT in terms of language adaptation and parameter efficiency?",
+        "top_k_rank": 1,
+        "context_without_reranker": [
+            "The abstract highlights that while many models require tokenization, CANINE operates directly on character inputs, achieving better language adaptation without a fixed vocabulary. It outperforms comparable models like mBERT despite having fewer parameters."
+        ],
+        "context_with_reranker": [
+            "The abstract highlights that while many models require tokenization, CANINE operates directly on character inputs, achieving better language adaptation without a fixed vocabulary. It outperforms comparable models like mBERT despite having fewer parameters."
+        ],
+        "time_without_reranker": 1.5209980010986328,
+        "time_with_reranker": 118.1412980556488
+    },
+    {
+        "query": "How does CANINE compare to mBERT in terms of language adaptation and parameter efficiency?",
+        "top_k_rank": 3,
+        "context_without_reranker": [
+            "The abstract highlights that while many models require tokenization, CANINE operates directly on character inputs, achieving better language adaptation without a fixed vocabulary. It outperforms comparable models like mBERT despite having fewer parameters.",
+            "Internally, CANINE incorporates three Transformer encoders: two shallow encoders for local attention and one deep encoder for contextual encoding. It defaults to a max sequence length of 2048 characters and utilizes a special [CLS] token for classification tasks.",
+            "The CANINE model is a novel approach to language representation that functions without explicit tokenization, training directly at the Unicode character level. It uses an efficient downsampling method to manage the longer sequences generated by this character-level training."
+        ],
+        "context_with_reranker": [
+            "XLS-R enhances the CoVoST-2 speech translation benchmark, increasing the BLEU score by 7.4 on average across 21 translation directions into English. It also reduces error rates in speech recognition tasks by 14-34%.",
+            "Internally, CANINE incorporates three Transformer encoders: two shallow encoders for local attention and one deep encoder for contextual encoding. It defaults to a max sequence length of 2048 characters and utilizes a special [CLS] token for classification tasks.",
+            "The abstract highlights that while many models require tokenization, CANINE operates directly on character inputs, achieving better language adaptation without a fixed vocabulary. It outperforms comparable models like mBERT despite having fewer parameters."
+        ],
+        "time_without_reranker": 1.5789649486541748,
+        "time_with_reranker": 122.26650214195251
+    },
+    {
+        "query": "How does CANINE compare to mBERT in terms of language adaptation and parameter efficiency?",
+        "top_k_rank": 5,
+        "context_without_reranker": [
+            "The abstract highlights that while many models require tokenization, CANINE operates directly on character inputs, achieving better language adaptation without a fixed vocabulary. It outperforms comparable models like mBERT despite having fewer parameters.",
+            "Internally, CANINE incorporates three Transformer encoders: two shallow encoders for local attention and one deep encoder for contextual encoding. It defaults to a max sequence length of 2048 characters and utilizes a special [CLS] token for classification tasks.",
+            "The CANINE model is a novel approach to language representation that functions without explicit tokenization, training directly at the Unicode character level. It uses an efficient downsampling method to manage the longer sequences generated by this character-level training.",
+            "Users can utilize CANINE directly with raw characters or through a tokenizer for batching. The example provided demonstrates encoding input text and performing a forward pass for various NLP tasks.",
+            "XLS-R enhances the CoVoST-2 speech translation benchmark, increasing the BLEU score by 7.4 on average across 21 translation directions into English. It also reduces error rates in speech recognition tasks by 14-34%."
+        ],
+        "context_with_reranker": [
+            "Users can utilize CANINE directly with raw characters or through a tokenizer for batching. The example provided demonstrates encoding input text and performing a forward pass for various NLP tasks.",
+            "The CANINE model is a novel approach to language representation that functions without explicit tokenization, training directly at the Unicode character level. It uses an efficient downsampling method to manage the longer sequences generated by this character-level training.",
+            "XLS-R enhances the CoVoST-2 speech translation benchmark, increasing the BLEU score by 7.4 on average across 21 translation directions into English. It also reduces error rates in speech recognition tasks by 14-34%.",
+            "Internally, CANINE incorporates three Transformer encoders: two shallow encoders for local attention and one deep encoder for contextual encoding. It defaults to a max sequence length of 2048 characters and utilizes a special [CLS] token for classification tasks.",
+            "The abstract highlights that while many models require tokenization, CANINE operates directly on character inputs, achieving better language adaptation without a fixed vocabulary. It outperforms comparable models like mBERT despite having fewer parameters."
+        ],
+        "time_without_reranker": 1.5269997119903564,
+        "time_with_reranker": 119.3037371635437
+    },
+    {
+        "query": "What are the key differences between CPM and GPT-2, particularly regarding Chinese NLP tasks?",
+        "top_k_rank": 1,
+        "context_without_reranker": [
+            "The CPM model is detailed in a paper by multiple authors, emphasizing its importance in NLP. It addresses challenges that arise in applying large English models like GPT-3 to Chinese NLP tasks. "
+        ],
+        "context_with_reranker": [
+            "The CPM model is detailed in a paper by multiple authors, emphasizing its importance in NLP. It addresses challenges that arise in applying large English models like GPT-3 to Chinese NLP tasks. "
+        ],
+        "time_without_reranker": 1.9681692123413086,
+        "time_with_reranker": 116.75004577636719
+    },
+    {
+        "query": "What are the key differences between CPM and GPT-2, particularly regarding Chinese NLP tasks?",
+        "top_k_rank": 3,
+        "context_without_reranker": [
+            "The CPM model is detailed in a paper by multiple authors, emphasizing its importance in NLP. It addresses challenges that arise in applying large English models like GPT-3 to Chinese NLP tasks. ",
+            "The architecture of CPM resembles GPT-2, differing mainly in the tokenization method. For further technical details, refer to GPT-2 documentation. ",
+            "CPM uses extensive Chinese training data, consisting of 2.6 billion parameters and 100GB data. It excels in various Chinese tasks, including conversation and essay generation, showing strong performance in few-shot learning scenarios. "
+        ],
+        "context_with_reranker": [
+            "CPM uses extensive Chinese training data, consisting of 2.6 billion parameters and 100GB data. It excels in various Chinese tasks, including conversation and essay generation, showing strong performance in few-shot learning scenarios. ",
+            "The architecture of CPM resembles GPT-2, differing mainly in the tokenization method. For further technical details, refer to GPT-2 documentation. ",
+            "The CPM model is detailed in a paper by multiple authors, emphasizing its importance in NLP. It addresses challenges that arise in applying large English models like GPT-3 to Chinese NLP tasks. "
+        ],
+        "time_without_reranker": 1.9925601482391357,
+        "time_with_reranker": 117.24866104125977
+    },
+    {
+        "query": "What are the key differences between CPM and GPT-2, particularly regarding Chinese NLP tasks?",
+        "top_k_rank": 5,
+        "context_without_reranker": [
+            "The CPM model is detailed in a paper by multiple authors, emphasizing its importance in NLP. It addresses challenges that arise in applying large English models like GPT-3 to Chinese NLP tasks. ",
+            "The architecture of CPM resembles GPT-2, differing mainly in the tokenization method. For further technical details, refer to GPT-2 documentation. ",
+            "CPM uses extensive Chinese training data, consisting of 2.6 billion parameters and 100GB data. It excels in various Chinese tasks, including conversation and essay generation, showing strong performance in few-shot learning scenarios. ",
+            "Additional resources are provided for text classification, token classification, and causal language modeling tasks. The GPT2Model documentation offers further details regarding the API and examples.",
+            "The architecture of MegatronGPT2 mirrors OpenAI's GPT-2, with details on configuration classes available in the GPT-2 documentation. Users can leverage this model for various NLP applications effectively."
+        ],
+        "context_with_reranker": [
+            "Experimental results demonstrate that PhoBERT outperforms the multilingual model XLM-R and sets new benchmarks in Vietnamese NLP tasks like part-of-speech tagging, dependency parsing, and named-entity recognition.",
+            "The architecture of MegatronGPT2 mirrors OpenAI's GPT-2, with details on configuration classes available in the GPT-2 documentation. Users can leverage this model for various NLP applications effectively.",
+            "CPM uses extensive Chinese training data, consisting of 2.6 billion parameters and 100GB data. It excels in various Chinese tasks, including conversation and essay generation, showing strong performance in few-shot learning scenarios. ",
+            "The architecture of CPM resembles GPT-2, differing mainly in the tokenization method. For further technical details, refer to GPT-2 documentation. ",
+            "The CPM model is detailed in a paper by multiple authors, emphasizing its importance in NLP. It addresses challenges that arise in applying large English models like GPT-3 to Chinese NLP tasks. "
+        ],
+        "time_without_reranker": 1.9738459587097168,
+        "time_with_reranker": 114.64705014228821
+    },
+    {
+        "query": "How does CPM excel in few-shot learning for Chinese language applications?",
+        "top_k_rank": 1,
+        "context_without_reranker": [
+            "CPM uses extensive Chinese training data, consisting of 2.6 billion parameters and 100GB data. It excels in various Chinese tasks, including conversation and essay generation, showing strong performance in few-shot learning scenarios. "
+        ],
+        "context_with_reranker": [
+            "CPM uses extensive Chinese training data, consisting of 2.6 billion parameters and 100GB data. It excels in various Chinese tasks, including conversation and essay generation, showing strong performance in few-shot learning scenarios. "
+        ],
+        "time_without_reranker": 1.5214102268218994,
+        "time_with_reranker": 114.76347208023071
+    },
+    {
+        "query": "How does CPM excel in few-shot learning for Chinese language applications?",
+        "top_k_rank": 3,
+        "context_without_reranker": [
+            "CPM uses extensive Chinese training data, consisting of 2.6 billion parameters and 100GB data. It excels in various Chinese tasks, including conversation and essay generation, showing strong performance in few-shot learning scenarios. ",
+            "The XGLM model, developed by a team of researchers, addresses few-shot learning using multilingual language models. It aims to improve on large-scale models like GPT-3 by enhancing cross-lingual generalization despite the dominance of English in their training data.",
+            "The CPM model is detailed in a paper by multiple authors, emphasizing its importance in NLP. It addresses challenges that arise in applying large English models like GPT-3 to Chinese NLP tasks. "
+        ],
+        "context_with_reranker": [
+            "The researchers trained multilingual autoregressive language models on a balanced corpus. Their largest model, with 7.5 billion parameters, excels in few-shot learning across 20 languages, surpassing GPT-3 in multilingual commonsense reasoning and natural language inference.",
+            "The XGLM model, developed by a team of researchers, addresses few-shot learning using multilingual language models. It aims to improve on large-scale models like GPT-3 by enhancing cross-lingual generalization despite the dominance of English in their training data.",
+            "CPM uses extensive Chinese training data, consisting of 2.6 billion parameters and 100GB data. It excels in various Chinese tasks, including conversation and essay generation, showing strong performance in few-shot learning scenarios. "
+        ],
+        "time_without_reranker": 1.5504539012908936,
+        "time_with_reranker": 115.61574292182922
+    },
+    {
+        "query": "How does CPM excel in few-shot learning for Chinese language applications?",
+        "top_k_rank": 5,
+        "context_without_reranker": [
+            "CPM uses extensive Chinese training data, consisting of 2.6 billion parameters and 100GB data. It excels in various Chinese tasks, including conversation and essay generation, showing strong performance in few-shot learning scenarios. ",
+            "The XGLM model, developed by a team of researchers, addresses few-shot learning using multilingual language models. It aims to improve on large-scale models like GPT-3 by enhancing cross-lingual generalization despite the dominance of English in their training data.",
+            "The CPM model is detailed in a paper by multiple authors, emphasizing its importance in NLP. It addresses challenges that arise in applying large English models like GPT-3 to Chinese NLP tasks. ",
+            "An 8B-parameter language model was also trained, focusing on few-shot translation. The baseline models are made available for the research community.",
+            "The researchers trained multilingual autoregressive language models on a balanced corpus. Their largest model, with 7.5 billion parameters, excels in few-shot learning across 20 languages, surpassing GPT-3 in multilingual commonsense reasoning and natural language inference."
+        ],
+        "context_with_reranker": [
+            "The XLM model, proposed by Lample and Conneau, is a transformer pretrained using CLM, MLM, or TLM objectives. It aims to improve cross-lingual natural language understanding through generative pretraining.",
+            "The CPM model is detailed in a paper by multiple authors, emphasizing its importance in NLP. It addresses challenges that arise in applying large English models like GPT-3 to Chinese NLP tasks. ",
+            "The researchers trained multilingual autoregressive language models on a balanced corpus. Their largest model, with 7.5 billion parameters, excels in few-shot learning across 20 languages, surpassing GPT-3 in multilingual commonsense reasoning and natural language inference.",
+            "The XGLM model, developed by a team of researchers, addresses few-shot learning using multilingual language models. It aims to improve on large-scale models like GPT-3 by enhancing cross-lingual generalization despite the dominance of English in their training data.",
+            "CPM uses extensive Chinese training data, consisting of 2.6 billion parameters and 100GB data. It excels in various Chinese tasks, including conversation and essay generation, showing strong performance in few-shot learning scenarios. "
+        ],
+        "time_without_reranker": 1.6620829105377197,
+        "time_with_reranker": 115.52242517471313
+    },
+    {
+        "query": "What advantages does JetMoe-8B's sparsely activated architecture offer over dense language models?",
+        "top_k_rank": 1,
+        "context_without_reranker": [
+            "JetMoe employs a sparsely activated architecture based on ModuleFormer. Each block features two MoE layers: Mixture of Attention Heads and Mixture of MLP Experts."
+        ],
+        "context_with_reranker": [
+            "JetMoe employs a sparsely activated architecture based on ModuleFormer. Each block features two MoE layers: Mixture of Attention Heads and Mixture of MLP Experts."
+        ],
+        "time_without_reranker": 1.8357970714569092,
+        "time_with_reranker": 118.80514717102051
+    },
+    {
+        "query": "What advantages does JetMoe-8B's sparsely activated architecture offer over dense language models?",
+        "top_k_rank": 3,
+        "context_without_reranker": [
+            "JetMoe employs a sparsely activated architecture based on ModuleFormer. Each block features two MoE layers: Mixture of Attention Heads and Mixture of MLP Experts.",
+            "JetMoe-8B is an 8B Mixture-of-Experts (MoE) language model created by Yikang Shen and MyShell. The project aims to deliver LLaMA2-level performance efficiently and within a limited budget.",
+            "The OLMoE model introduces a state-of-the-art language model utilizing sparse MoE. OLMoE-1B-7B has 7 billion parameters but utilizes only 1 billion per input token, pretrained on 5 trillion tokens, and tailored for diverse tasks."
+        ],
+        "context_with_reranker": [
+            "Integrating selective state-space models into a streamlined neural architecture, Mamba performs exceptionally in various modalities, including language and audio, outperforming similar-sized Transformers in language tasks.",
+            "JetMoe-8B is an 8B Mixture-of-Experts (MoE) language model created by Yikang Shen and MyShell. The project aims to deliver LLaMA2-level performance efficiently and within a limited budget.",
+            "JetMoe employs a sparsely activated architecture based on ModuleFormer. Each block features two MoE layers: Mixture of Attention Heads and Mixture of MLP Experts."
+        ],
+        "time_without_reranker": 1.823730230331421,
+        "time_with_reranker": 122.5016450881958
+    },
+    {
+        "query": "What advantages does JetMoe-8B's sparsely activated architecture offer over dense language models?",
+        "top_k_rank": 5,
+        "context_without_reranker": [
+            "JetMoe employs a sparsely activated architecture based on ModuleFormer. Each block features two MoE layers: Mixture of Attention Heads and Mixture of MLP Experts.",
+            "JetMoe-8B is an 8B Mixture-of-Experts (MoE) language model created by Yikang Shen and MyShell. The project aims to deliver LLaMA2-level performance efficiently and within a limited budget.",
+            "The OLMoE model introduces a state-of-the-art language model utilizing sparse MoE. OLMoE-1B-7B has 7 billion parameters but utilizes only 1 billion per input token, pretrained on 5 trillion tokens, and tailored for diverse tasks.",
+            "The model activates a subset of experts for processing input tokens. This sparse activation enhances training throughput compared to similar dense models.",
+            "Integrating selective state-space models into a streamlined neural architecture, Mamba performs exceptionally in various modalities, including language and audio, outperforming similar-sized Transformers in language tasks."
+        ],
+        "context_with_reranker": [
+            "The model activates a subset of experts for processing input tokens. This sparse activation enhances training throughput compared to similar dense models.",
+            "The OLMoE model introduces a state-of-the-art language model utilizing sparse MoE. OLMoE-1B-7B has 7 billion parameters but utilizes only 1 billion per input token, pretrained on 5 trillion tokens, and tailored for diverse tasks.",
+            "Integrating selective state-space models into a streamlined neural architecture, Mamba performs exceptionally in various modalities, including language and audio, outperforming similar-sized Transformers in language tasks.",
+            "JetMoe-8B is an 8B Mixture-of-Experts (MoE) language model created by Yikang Shen and MyShell. The project aims to deliver LLaMA2-level performance efficiently and within a limited budget.",
+            "JetMoe employs a sparsely activated architecture based on ModuleFormer. Each block features two MoE layers: Mixture of Attention Heads and Mixture of MLP Experts."
+        ],
+        "time_without_reranker": 1.8372528553009033,
+        "time_with_reranker": 124.73106718063354
+    },
+    {
+        "query": "Describe the function of Mixture of Attention Heads and Mixture of MLP Experts in JetMoe-8B.",
+        "top_k_rank": 1,
+        "context_without_reranker": [
+            "JetMoe employs a sparsely activated architecture based on ModuleFormer. Each block features two MoE layers: Mixture of Attention Heads and Mixture of MLP Experts."
+        ],
+        "context_with_reranker": [
+            "JetMoe employs a sparsely activated architecture based on ModuleFormer. Each block features two MoE layers: Mixture of Attention Heads and Mixture of MLP Experts."
+        ],
+        "time_without_reranker": 1.9796948432922363,
+        "time_with_reranker": 119.92795896530151
+    },
+    {
+        "query": "Describe the function of Mixture of Attention Heads and Mixture of MLP Experts in JetMoe-8B.",
+        "top_k_rank": 3,
+        "context_without_reranker": [
+            "JetMoe employs a sparsely activated architecture based on ModuleFormer. Each block features two MoE layers: Mixture of Attention Heads and Mixture of MLP Experts.",
+            "JetMoe-8B is an 8B Mixture-of-Experts (MoE) language model created by Yikang Shen and MyShell. The project aims to deliver LLaMA2-level performance efficiently and within a limited budget.",
+            "The authors argue that transformers can replace attention modules with spatial MLPs and still perform competitively. They propose the PoolFormer, which uses a simple spatial pooling operator, verifying that the architecture rather than the mixer is crucial for performance."
+        ],
+        "context_with_reranker": [
+            "The authors argue that transformers can replace attention modules with spatial MLPs and still perform competitively. They propose the PoolFormer, which uses a simple spatial pooling operator, verifying that the architecture rather than the mixer is crucial for performance.",
+            "JetMoe-8B is an 8B Mixture-of-Experts (MoE) language model created by Yikang Shen and MyShell. The project aims to deliver LLaMA2-level performance efficiently and within a limited budget.",
+            "JetMoe employs a sparsely activated architecture based on ModuleFormer. Each block features two MoE layers: Mixture of Attention Heads and Mixture of MLP Experts."
+        ],
+        "time_without_reranker": 1.9831039905548096,
+        "time_with_reranker": 121.30873394012451
+    },
+    {
+        "query": "Describe the function of Mixture of Attention Heads and Mixture of MLP Experts in JetMoe-8B.",
+        "top_k_rank": 5,
+        "context_without_reranker": [
+            "JetMoe employs a sparsely activated architecture based on ModuleFormer. Each block features two MoE layers: Mixture of Attention Heads and Mixture of MLP Experts.",
+            "JetMoe-8B is an 8B Mixture-of-Experts (MoE) language model created by Yikang Shen and MyShell. The project aims to deliver LLaMA2-level performance efficiently and within a limited budget.",
+            "The authors argue that transformers can replace attention modules with spatial MLPs and still perform competitively. They propose the PoolFormer, which uses a simple spatial pooling operator, verifying that the architecture rather than the mixer is crucial for performance.",
+            "This model applies normalization to attention queries and keys, as well as after attention and feedforward layers. It was contributed by shanearora, with the original code available online. ",
+            "VAN lacks an embedding layer, meaning hidden states match the number of stages. The architecture of the Visual Attention Layer is illustrated in the original paper."
+        ],
+        "context_with_reranker": [
+            "This model applies normalization to attention queries and keys, as well as after attention and feedforward layers. It was contributed by shanearora, with the original code available online. ",
+            "The model employs Scaled Dot Product Attention (SDPA) for efficiency. PyTorch's native SDPA function optimizes performance, and users can set this attention method explicitly within model parameters.",
+            "The authors argue that transformers can replace attention modules with spatial MLPs and still perform competitively. They propose the PoolFormer, which uses a simple spatial pooling operator, verifying that the architecture rather than the mixer is crucial for performance.",
+            "JetMoe-8B is an 8B Mixture-of-Experts (MoE) language model created by Yikang Shen and MyShell. The project aims to deliver LLaMA2-level performance efficiently and within a limited budget.",
+            "JetMoe employs a sparsely activated architecture based on ModuleFormer. Each block features two MoE layers: Mixture of Attention Heads and Mixture of MLP Experts."
+        ],
+        "time_without_reranker": 1.980374813079834,
+        "time_with_reranker": 121.48180389404297
+    }
+]

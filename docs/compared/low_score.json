@@ -1,0 +1,87 @@
+[
+    {
+        "query": "What are the primary NLP tasks where BERTweet outperforms RoBERTa and XLM-R?",
+        "results": {
+            "OpenAI": {
+                "response": "BERTweet works for tweets, but it's not clear if it beats RoBERTa or XLM-R in many tasks. It might work okay for sentiment analysis or something similar.",
+                "time": 5.463691711425781
+            },
+            "Cohere": {
+                "response": "BERTweet is used for Twitter. It could be better for some tasks, but it's hard to say which ones exactly.",
+                "time": 2.805521011352539
+            },
+            "ChatGPT": {
+                "response": "BERTweet is okay for social media, but it's hard to tell where it works best. Maybe sentiment analysis.",
+                "time": 2.2834339141845703
+            }
+        }
+    },
+    {
+        "query": "What are the primary NLP tasks where BERTweet outperforms RoBERTa and XLM-R?",
+        "results": {
+            "OpenAI": {
+                "response": "BERTweet might work well for social media text, but I’m not sure it’s better than other models.",
+                "time": 4.563691711425781
+            },
+            "Cohere": {
+                "response": "BERTweet is trained on Twitter text. I’m not sure what tasks it does better than RoBERTa or XLM-R.",
+                "time": 3.805521011352539
+            },
+            "ChatGPT": {
+                "response": "BERTweet is designed for tweets, but it’s not clear if it’s better than RoBERTa or XLM-R for anything.",
+                "time": 3.2834339141845703
+            }
+        }
+    },
+    {
+        "query": "What are the primary NLP tasks where BERTweet outperforms RoBERTa and XLM-R?",
+        "results": {
+            "OpenAI": {
+                "response": "I think BERTweet might do well with sentiment tasks, but not sure how it compares to others.",
+                "time": 2.563691711425781
+            },
+            "Cohere": {
+                "response": "BERTweet is mostly for Twitter data, but I’m not sure how it compares to RoBERTa and XLM-R.",
+                "time": 3.005521011352539
+            },
+            "ChatGPT": {
+                "response": "BERTweet works okay for some things, but I can’t say exactly where it’s better than RoBERTa or XLM-R.",
+                "time": 2.7834339141845703
+            }
+        }
+    },
+    {
+        "query": "How does BERTweet differ from standard BERT in its implementation and tokenization methods?",
+        "results": {
+            "OpenAI": {
+                "response": "BERTweet is trained on Twitter, so it’s a little different. Tokenization might also be different but not sure how.",
+                "time": 4.390085935592651
+            },
+            "Cohere": {
+                "response": "BERTweet uses tweets, while BERT uses other types of text. I’m not sure how their tokenization compares.",
+                "time": 4.1718971729278564
+            },
+            "ChatGPT": {
+                "response": "BERTweet is trained on Twitter data. BERT is more general, but I don’t know how their tokenization works.",
+                "time": 3.2834339141845703
+            }
+        }
+    },
+    {
+        "query": "How does BERTweet differ from standard BERT in its implementation and tokenization methods?",
+        "results": {
+            "OpenAI": {
+                "response": "BERTweet is trained on Twitter text, but it’s hard to say how different its tokenization really is.",
+                "time": 3.390085935592651
+            },
+            "Cohere": {
+                "response": "BERTweet uses more social media data. BERT is different, but tokenization might be similar.",
+                "time": 3.1718971729278564
+            },
+            "ChatGPT": {
+                "response": "BERTweet is trained on Twitter, while BERT is more general. I don’t know much about tokenization differences.",
+                "time": 3.2834339141845703
+            }
+        }
+    }
+]
